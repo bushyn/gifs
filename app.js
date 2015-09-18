@@ -1,7 +1,7 @@
 'use strict';
 
 var navigation = {
-  max: 127,
+  max: 126,
   callbacks: [],
   next: function() {
     navigation.state = navigation.state === navigation.max? 0 : ++navigation.state;
